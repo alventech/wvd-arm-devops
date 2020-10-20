@@ -1,3 +1,5 @@
+# ARM RdsRegistrationInfotoken Used by arm parameter hostpoolToken
+# Get RdsRegistrationInfotoken
 # Import Modules for WVD
 
 import-module az.desktopvirtualization
