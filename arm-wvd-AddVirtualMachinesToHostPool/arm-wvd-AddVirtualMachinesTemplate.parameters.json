@@ -1,0 +1,141 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "nestedTemplatesLocation": {
+            "value": "https://raw.githubusercontent.com/Azure/RDS-Templates/master/ARM-wvd-templates/nestedtemplates/"
+        },
+        "artifactsLocation": {
+            "value": "https://raw.githubusercontent.com/Azure/RDS-Templates/master/ARM-wvd-templates/DSC/Configuration.zip"
+        },
+        "hostpoolName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "hostpoolToken": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "hostpoolResourceGroup": {
+            "value": ""
+        },
+        "hostpoolLocation": {
+            "value": ""
+        },
+        "hostpoolProperties": {
+            "value": {}
+        },
+        "vmTemplate": {
+            "value": ""
+        },
+        "administratorAccountUsername": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "administratorAccountPassword": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "createAvailabilitySet": {
+            "value": false // TODO: Fill in parameter value
+        },
+        "vmResourceGroup": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "vmLocation": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "vmSize": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "vmInitialNumber": {
+            "value": 0 // TODO: Fill in parameter value
+        },
+        "vmNumberOfInstances": {
+            "value": 0 // TODO: Fill in parameter value
+        },
+        "vmNamePrefix": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "vmImageType": {
+            "value": "Gallery"
+        },
+        "vmGalleryImageOffer": {
+            "value": ""
+        },
+        "vmGalleryImagePublisher": {
+            "value": ""
+        },
+        "vmGalleryImageSKU": {
+            "value": ""
+        },
+        "vmImageVhdUri": {
+            "value": ""
+        },
+        "vmCustomImageSourceId": {
+            "value": ""
+        },
+        "vmDiskType": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "vmUseManagedDisks": {
+            "value": false // TODO: Fill in parameter value
+        },
+        "storageAccountResourceGroupName": {
+            "value": ""
+        },
+        "existingVnetName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "existingSubnetName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "virtualNetworkResourceGroupName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "usePublicIP": {
+            "value": false
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "createNetworkSecurityGroup": {
+            "value": false
+        },
+        "networkSecurityGroupId": {
+            "value": ""
+        },
+        "networkSecurityGroupRules": {
+            "value": []
+        },
+        "availabilitySetTags": {
+            "value": {}
+        },
+        "networkInterfaceTags": {
+            "value": {}
+        },
+        "networkSecurityGroupTags": {
+            "value": {}
+        },
+        "publicIPAddressTags": {
+            "value": {}
+        },
+        "virtualMachineTags": {
+            "value": {}
+        },
+        "imageTags": {
+            "value": {}
+        },
+        "deploymentId": {
+            "value": ""
+        },
+        "apiVersion": {
+            "value": "2019-12-10-preview"
+        },
+        "ouPath": {
+            "value": ""
+        },
+        "domain": {
+            "value": ""
+        }
+    }
+}
