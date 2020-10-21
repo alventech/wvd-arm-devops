@@ -1,4 +1,7 @@
 # wvd-arm-devops
+![Image of HLD](https://alven.tech/wp-content/uploads/2020/10/image-29.png)
+
+How to:
 https://alven.tech/windows-virtual-desktop-with-arm-and-azure-devops/
 
 # arm-wvd-CreateAndProvisionHostPool
