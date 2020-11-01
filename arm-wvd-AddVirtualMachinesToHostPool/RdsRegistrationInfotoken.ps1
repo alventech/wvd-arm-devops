@@ -24,4 +24,4 @@ if ((-Not $Registered.Token) -or ($Registered.ExpirationTime -le (get-date)))
 $RdsRegistrationInfotoken = $Registered.Token
 
 # Write Host task.setvariable 
-Write-Host "$("##vso[task.setvariable variable=RdsRegistrationInfotoken]") $($RdsRegistrationInfotoken)"
+Write-Host "##vso[task.setvariable variable=RdsRegistrationInfotoken;]$RdsRegistrationInfotoken"
