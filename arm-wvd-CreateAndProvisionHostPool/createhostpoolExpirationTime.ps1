@@ -5,5 +5,5 @@
 
 $ExpirationTime = $((get-date).ToUniversalTime().Addhours(2).ToString('yyyy-MM-ddTHH:mm:ss.fffffffZ'))
 
-Write-Host "$("##vso[task.setvariable variable=ExpirationTime]") $($ExpirationTime)"
+Write-Host "$("##vso[task.setvariable variable=ExpirationTime]")$($ExpirationTime)"
 
